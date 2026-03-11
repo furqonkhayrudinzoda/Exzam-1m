@@ -11,7 +11,7 @@
 
 
 // //2
-//       int n = Convert.ToInt32(Console.ReadLine());
+// int n = Convert.ToInt32(Console.ReadLine());
 // int[] nums = new int[n];
 
 // for(int i = 0; i < n; i++)
@@ -109,12 +109,12 @@
 
 
 //7
-// int CountPositive(int[] numbers)
+// int CountPositive(int[] number)
 // {
 //     int cnt = 0;
-//     for(int i = 0; i < numbers.Length; i++)
+//     for(int i = 0; i < number.Length; i++)
 //     {
-//         if(numbers[i] > 0)
+//         if(number[i] > 0)
 //         {
 //             cnt ++;
 //         }
@@ -126,6 +126,20 @@
 // int result = CountPositive(numbers);
 // Console.WriteLine(result);
 
+
+//8
+// bool Contains(int[] arr, int value)
+// {
+//     int cnt = 0;
+//     for(int i = 0; i < arr.Length; i++)
+//     {
+//         if(arr[i] == value) cnt++;
+//     }
+//     if(cnt > 0) return true;
+//     else return false;
+// }
+// int[] numbers = { 3, 7, 10, 2 };
+// System.Console.WriteLine(Contains(numbers, 7));
 
 // //10
 // int Shumora(int f)
